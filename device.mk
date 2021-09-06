@@ -39,6 +39,11 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
+# Audio
+PRODUCT_PACKAGES += \
+    libaptX_encoder \
+    libaptXHD_encoder
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
