@@ -30,13 +30,5 @@ TARGET_BOOT_ANIMATION_RES := 720
 PRODUCT_DEVICE := certus
 PRODUCT_NAME := nad_certus
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi 6 / Redmi 6a
+PRODUCT_MODEL := Redmi 6 / Redmi 6A
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Override fingerprint from stock
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="cactus-user 9 PPR1.180610.011 V10.4.4.0.PCBMIXM release-keys" \
-    PRODUCT_NAME="cactus" \
-    TARGET_DEVICE="cactus"
-
-BUILD_FINGERPRINT := xiaomi/cactus/cactus:9/PPR1.180610.011/V10.4.4.0.PCBMIXM:user/release-keys
