@@ -42,3 +42,5 @@ Release Month | June 2018
 
 ![Xiaomi Redmi 6a](https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-6a-2.jpg "Xiaomi Redmi 6a")    
 
+To prevent IMS from crashing, run this command during build :
+`cd frameworks/opt/net/ims && wget https://github.com/PixysOS/frameworks_opt_net_ims/commit/30c271beb9974d59b43d76d618c5ec8249e2004b.patch && git apply 30c271beb9974d59b43d76d618c5ec8249e2004b.patch && cd .. && rm -rf wifi && git clone https://github.com/PixysOS/frameworks_opt_net_wifi -b eleven wifi && cd ../../..`
