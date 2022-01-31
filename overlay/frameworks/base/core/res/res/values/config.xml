@@ -327,7 +327,6 @@
     <bool name="config_multiColorNotificationLed">false</bool>
     <bool name="config_multiColorBatteryLed">false</bool>
 
-    <string name="config_ims_package">com.mediatek.ims</string>
-    <bool name="config_carrier_volte_available">true</bool>
-    <bool name="config_dynamic_bind_ims">true</bool>
+    <!-- Controls whether system buttons use all caps for text -->
+    <bool name="config_buttonTextAllCaps">false</bool>
 </resources>
